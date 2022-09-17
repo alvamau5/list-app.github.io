@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="/todo-list.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+    <title>App Lista</title>
+  </head>
+  <body>
+    <section class="section-center">
+      <!--form-->
+      <form class="app-form">
+        <p class="alert"></p>
+        <h3>App List</h3>
+        <div class="form-control">
+          <input type="text" id="app" placeholder="ej. leche" />
+          <button type="submit" class="submit-btn">Enter</button>
+        </div>
+      </form>
+      <!--List-->
+      <div class="app-container">
+        <div class="app-list"></div>
+        <!--Boton-->
+        <button class="clear-btn">Limpiar Elementos</button>
+      </div>
+    </section>
+    <!--Script-->
+    <script src="app.js"></script>
+  </body>
+</html>
